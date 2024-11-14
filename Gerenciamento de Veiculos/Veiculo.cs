@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Gerenciamento_de_Veiculos
 {
-    public class Veiculo
+    public class Veiculo : IVeiculo
     {
         public string Modelo { get; set; }
         public int Ano { get; set; }
